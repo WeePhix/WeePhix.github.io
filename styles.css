@@ -1,0 +1,116 @@
+body {
+    font-family: monospace;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(49, 42, 54);
+    color: rgb(235, 232, 170)
+}
+
+header h1 {
+    margin: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color:rgb(223, 121, 49);
+}
+
+h2 {
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(217, 223, 49);
+}
+
+p {
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 150%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(172, 90, 222);
+}
+
+p a {
+    color: rgb(124, 188, 103);
+}
+
+.normal-link {
+    text-decoration: underline;
+}
+
+.nav-bar {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-bar li {
+    display:inline-block;
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+    border: solid 2px rgb(77, 70, 82);
+    background-color: rgb(66, 60, 70);
+}
+
+.thanks {
+    text-align: center;
+    padding-top: 2%;
+}
+
+.codeblock {
+    border: solid 2px, rgb(77, 70, 82);
+    border-radius: 5px;
+    background-color:  rgb(66, 60, 70);
+    color:rgb(235, 190, 170)
+}
+
+.contact-list {
+    width: 84%;
+}
+
+.music-list {
+    margin-left: min(80px, 8%);
+    margin-right: min(80px, 8%);
+}
+
+.header-row {
+    border: 2px solid rgb(73, 63, 81);
+}
+
+.music-list th{
+    width: 20%;
+    border-left: 2px solid rgb(73, 63, 81);
+}
+
+.music-list td {
+    text-align: center;
+    margin: 0px;
+    padding-left: -1px;
+}
+
+.music-list tr:nth-child(even) {
+    background-color: rgb(73, 63, 81);
+}
+
+tr:nth-child(odd) td {
+    border-right: rgb(73, 63, 81);
+}
+
+.music-list td a {
+    color: rgb(124, 188, 103);
+}
+
+.last-col {
+    width: 40%;
+    border-right: 2px solid rgb(73, 63, 81);
+}
+
+.artist {color: rgb(127, 200, 255)}
+
+.album {color: chartreuse}
+
+.song {color: rgb(255, 191, 29)}
